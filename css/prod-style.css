@@ -1,0 +1,131 @@
+/* Start Products */
+
+.products h2,
+.packing h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #1a3618;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    font-size: 42px;
+    text-shadow: 1px -1px 2px #152c14;
+}
+
+/* Start Packing */
+
+.packing div.container div.row {
+    overflow: hidden;
+}
+
+.packing h2 {
+    margin-top: 100px;
+}
+
+.packing .card  {
+    margin-top: 30px;
+    padding: 0;
+    width: 250px !important;
+    margin-right: 10px;
+    background: none;
+    border: none;
+}
+
+.packing .card img.boxi {
+    margin-top: 130px;
+}
+
+.packing .card img.pp-bag {
+    margin-top: 60px;
+}
+
+.packing .card img.pp-bag ~ span,
+.packing .card img.boxi ~ span {
+    margin-top: 55px;
+}
+
+.packing .card span {
+    font-family: 'Poppins', sans-serif;
+    color: #79a635;
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.packing a div {
+    background-color: #1a3618;
+    margin-left: 2px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    width: 250px;
+    padding: 12px;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: #79a635;
+    border-bottom-right-radius: 30px;
+}
+
+.packing a div span {
+    transition: all 0.5s ease-in-out 
+}
+
+.packing a div:hover,
+.packing a div span:hover {
+    color: #96e124;
+}
+
+.packing a:hover{
+    text-decoration: none;
+}
+
+.packing .alert-primary {
+    margin-top: 20px;
+    background: none;
+    border: 3px solid #152c14;
+    border-radius: 10px;
+    color: #79a635;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.packing .alert-primary i {
+    color: #96e124;
+}
+
+@media (max-width: 768px) {
+
+    .packing .row {
+        justify-content: center;
+    }
+
+    .packing h2 {
+        margin-top: 60px;
+    }
+
+    .packing .card {
+        margin-left: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .packing .card .card-img-top {
+        width: 80%;
+    }
+
+    .packing .card img.boxi {
+        margin-top: 0;
+    }
+
+    .packing .card img.pp-bag,
+    .packing .card img {
+        margin-top: 20px;
+    }
+
+    .packing .card img.pp-bag ~ span,
+    .packing .card img.boxi ~ span {
+        margin-top: 10px;
+    }
+}

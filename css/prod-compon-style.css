@@ -1,0 +1,169 @@
+ a,
+ a:hover,
+ a:active,
+ a:focus {
+     text-decoration: none;
+ }
+
+/* Start Inner Nav */
+
+.breadcrumb {
+    background-color: #152c14;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    border: 0;
+    border-radius: 0;
+}
+
+.breadcrumb .breadcrumb-item a {
+    text-decoration: none;
+    color: #FC9822;
+    transition: all 0.5s ease-in-out;
+}
+
+.breadcrumb .breadcrumb-item a:hover {
+    color: #fcb722;
+}
+
+ol.breadcrumb .breadcrumb-item:nth-of-type(2) a{
+    color: #fcb722;
+}
+
+
+/* Start Products */
+
+.spies div.container div.row,
+.seeds div.container div.row,
+.herbs div.container div.row {
+    justify-content: center;
+}
+
+.spies .row,
+.seeds .row,
+.herbs .row {
+    overflow: hidden;
+}
+
+.spies .row a,
+.seeds .row a,
+.herbs .row a {
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.spies .row a .card-body p:hover,
+.seeds .row a .card-body p:hover,
+.herbs .row a .card-body p:hover {
+    transition: all 0.5s ease-in-out;
+    color: #fcb722;
+}
+
+.spies h2,
+.seeds h2,
+.herbs h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #1a3618;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    font-size: 42px;
+    text-shadow: 1px -1px 2px #152c14;
+}
+
+.spies .card,
+.seeds .card,
+.herbs .card {
+    background: none;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 30px;
+    padding: 0;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spies .card .card-img-top,
+.seeds .card .card-img-top,
+.herbs .card .card-img-top {
+    width: 80%;
+}
+
+.spies p,
+.seeds p,
+.herbs p {
+    font-family: 'Poppins', sans-serif;
+    color: #FC9822;
+    text-shadow: 1px -1px 2px #b46b18;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+
+    .spies h2,
+    .seeds h2,
+    .herbs h2 {
+        margin-top: 20px;
+        margin-bottom: 25px;
+        font-size: 32px;
+    }
+    .spies .card,
+    .seeds .card,
+    .herbs .card {
+        margin-bottom: 0px;
+        width: 55%;
+    }
+
+    .spies p,
+    .seeds p,
+    .herbs p {
+        font-weight: 500;
+        margin-top: -10px;
+    }
+
+    .spies .card-body,
+    .seeds .card-body,
+    .herbs .card-body {
+        padding: 0;
+    }
+
+    .seeds .card-body p {
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+
+    .seeds .card-body p.white {
+        margin-top: -30px;
+    }
+
+    .spies .card-body p.cur {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    
+    .spies .card-body p.dri {
+        margin-top: 15px;
+        font-size: 22px;
+    }
+    
+    .spies .card-body p.y-lem {
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
+    
+    .spies .card-body p.gar,
+    .spies .card-body p.fre {
+        margin-top: 15px;
+    }
+
+    .spies .card-body p.gal {
+        margin-bottom: 15px;
+    }
+    
+    
+    
+}

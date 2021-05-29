@@ -1,0 +1,158 @@
+
+/* Start Form Header */
+
+.cont-for h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #1a3618;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    font-size: 42px;
+    text-shadow: 1px -1px 2px #152c14;
+}
+
+@media (max-width: 768px) {
+    .cont-for h2 {
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+}
+
+/* Start Contact Info */
+
+.cont-info div.row {
+    font-family: 'Poppins', sans-serif;
+}
+
+.cont-info div.row div {
+    text-align: left;
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+
+.cont-info div.row div h4 {
+    color: #79a635;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 30px;
+}
+
+.cont-info div.row div:nth-of-type(1),
+.cont-info div.row div ul {
+    color: #152c14;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.cont-info div.row div ul li span {
+    color: #FC9822;
+    margin-left: 5px;
+}
+
+@media (max-width: 768px) {
+    .cont-info div.row div {
+        text-align: center;
+    }
+}
+
+/* Start Map */
+
+.mapouter {
+    position:relative;
+    text-align:right;
+    height:500px;
+    width:100%;
+    margin-bottom: 110px;
+}
+
+.mapouter h2 {
+    text-align: center;
+}
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:500px;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+
+    .mapouter {
+        height:300px;
+    }
+
+    .gmap_canvas {
+        height:300px;
+    }
+}    
+
+/* Start Form Fields */
+
+.cont-for form input {
+    border: none;
+    border-radius: 0;
+    border-bottom: 3px solid #79a635;
+    background: none;
+    padding: 20px 15px;
+    transition: all 0.5s ease-in-out;
+}
+
+.cont-for form input:active,
+.cont-for form input:focus {
+    background: none;
+    outline: none;
+    box-shadow: 3px 3px 2px #79a635;
+    border-bottom: none;
+}
+
+.cont-for form textarea {
+    min-width: 100%;
+    min-height: 150px;
+    max-width: 100%;
+    max-height: 150px;
+    margin-left: 2px;
+    border: none;
+    border-radius: 0;
+    border-bottom: 3px solid #79a635;
+    background: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.cont-for form textarea:active,
+.cont-for form textarea:focus {
+    background: none;
+    outline: none;
+    box-shadow: 3px 3px 2px #79a635;
+    border-bottom: none;
+}
+
+.cont-for form button {
+    margin: 0;
+    width: 100%;
+    font-size: large;
+    background-color: #FC9822;
+    border: none;
+    border-radius: 100px;
+    letter-spacing: 2px;
+    padding: 8px 10px;
+    transition: all 0.5s ease-in-out;
+    margin-top: 10px;
+}
+
+.cont-for form button:hover,
+.cont-for form button:active,
+.cont-for form button:focus {
+    background-color: #ffad14;
+}
+
+@media (max-width: 768px) {
+    .cont-for form textarea {
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    .cont-for form button {
+        width: 100%;
+    }
+}

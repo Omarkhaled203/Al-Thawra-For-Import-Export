@@ -1,0 +1,72 @@
+ol.breadcrumb .breadcrumb-item:nth-of-type(3) a {
+    color: #fcb722;
+}
+
+ol.breadcrumb .breadcrumb-item:nth-of-type(2) a {
+    color: #FC9822;
+}
+
+.details h2,
+.details h3 {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    color: #1a3618;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-weight: 500;
+}
+
+.details h3 {
+    margin-bottom: 25px;
+}
+
+.details div.container div.row {
+    justify-content: center;
+}
+
+.details table {
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    display: contents;
+    justify-content: center;
+    align-items: center;
+    border-collapse: collapse;
+    width: 60%;
+    margin-top: 25px;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.details table td {
+    padding: 15px 60px;
+    padding-left: 15px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.353);
+}
+
+.details table tr td:nth-of-type(1) {
+    background-color: #1a3618cc;
+    border-right: 3px solid #FC9822;
+    color: #fcb722;
+}
+
+.details table tr td:nth-of-type(2) {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.details table tr:nth-of-type(1) td:nth-of-type(1) {
+    border-top-left-radius: 30px;
+}
+
+.details table tr:nth-of-type(1) td:nth-of-type(2) {
+    border-top-right-radius: 10px;
+}
+
+.details table tr:last-of-type td:nth-of-type(1) {
+    border-bottom-left-radius: 30px;
+}
+
+.details table tr:last-of-type td:nth-of-type(2) {
+    border-bottom-right-radius: 10px;
+}
+
